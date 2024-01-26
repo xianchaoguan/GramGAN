@@ -1,0 +1,2 @@
+1. While testing, we directly feed the one-hot label to the network, so we should remove line 136-140 in networks_GramGAN.py. 
+2. We only realize the process of batchsize==1 due to the limition of GPU. You could rewrite the code if you need a larger batchsize.
